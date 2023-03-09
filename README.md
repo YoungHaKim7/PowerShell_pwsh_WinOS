@@ -60,4 +60,18 @@ $PSVersionTable.PSVersion
 
 https://jae04099.tistory.com/entry/Console-PowerShell-%EC%97%B0%EC%82%B0%EC%9E%90
 
+# powershell 명령어 다 나옴
+
+```
+// powershell 에서 해보자 alias 명령어 다 보여줌
+
+alias
+```
+
+# 파워셀 커맨드 설명 Command
+
+- How do you use the Command line? PowerShell, cmd, bash? - Computer Stuff They Didn't Teach You #13
+
+  - https://youtu.be/QKBcHuA3VJE
+
 <hr>
