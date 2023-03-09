@@ -74,4 +74,8 @@ alias
 
   - https://youtu.be/QKBcHuA3VJE
 
+# PowerShell 공식 문서 Documentation
+
+https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3
+
 <hr>
