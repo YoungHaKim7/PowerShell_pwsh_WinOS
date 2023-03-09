@@ -40,6 +40,24 @@ Get-ChildItem -Filter ./target -Recurse -Force | Remove-Item -Recurse -Force
 dir .\ -r -i "target"
 ```
 
+<hr>
+
 # 파워셀 Install (Windows OS)
 
 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3
+
+# 파워셀 Update
+
+```
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+```
+
+# 파워셀 버젼확인하는 방법
+
+```
+$PSVersionTable.PSVersion
+```
+
+https://jae04099.tistory.com/entry/Console-PowerShell-%EC%97%B0%EC%82%B0%EC%9E%90
+
+<hr>
