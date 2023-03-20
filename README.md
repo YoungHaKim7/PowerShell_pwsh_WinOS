@@ -1,3 +1,7 @@
+# 파워셀 version7.3.3설치
+
+https://github.com/PowerShell/PowerShell/releases/tag/v7.3.3
+
 # PowerShell_pwsh_WinOS
 
 # 윈도우 파웨셀에서 원하는 폴더 강제로 지우기(pwsh.exe) WindowsOS에서
