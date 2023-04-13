@@ -89,6 +89,8 @@ https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3
 
 https://youtu.be/5-aK2_WwrmM
 
+# 윈도우 패키지 관리자: chocolatey
+
 # 패키지 설치
 
 https://chocolatey.org/packages
