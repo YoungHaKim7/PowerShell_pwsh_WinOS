@@ -88,3 +88,23 @@ https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3
 # How to set up PowerShell prompt with Oh My Posh on Windows 11(외국사람의 파워셀 활용법 진짜 중에 진짜 ㅋㅋ)
 
 https://youtu.be/5-aK2_WwrmM
+
+# 패키지 설치
+
+https://chocolatey.org/packages
+
+```
+C:\> choco install 이름
+```
+
+- 로컬 패키지 리스트
+
+```
+C:\> choco list -l
+```
+
+- 패키지 제거
+
+```
+C:\> choco uninstall 이름
+```
