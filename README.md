@@ -122,3 +122,8 @@ C:\> choco list -l
 ```
 C:\> choco uninstall 이름
 ```
+
+
+# ChatGPT. Powershell 생성해줘. 근데 난 아무것도 몰라.
+
+https://youtu.be/bcgjjLXWaNU
