@@ -56,6 +56,16 @@ Get-ChildItem -Filter ./target -Recurse -Force | Remove-Item -Recurse -Force
 dir .\ -r -i "target"
 ```
 
+
+# c드라이브에서 내가 원하는 mongosh.exe 찾기, 빠르게 찾자
+
+```
+PS C:\> dir c:\ -recurse -filter mongosh.exe 
+```
+
+출처 : https://cloudsns.wordpress.com/2012/06/26/powershell%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%9E%90%EC%8B%A0%EC%9D%B4-%EC%9B%90%ED%95%98%EB%8A%94-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EB%A7%A4%EC%9A%B0-%EB%B9%A0%EB%A5%B4%EA%B3%A0-%EC%89%BD/
+
+
 <hr>
 
 # 파워셀 Install (Windows OS)
