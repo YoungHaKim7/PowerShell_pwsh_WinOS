@@ -7,6 +7,10 @@
 
 <hr>
 
+# choco와 비슷한 윈도우 패키지 관리자
+
+https://scoop.sh/
+
 <hr>
 
 
