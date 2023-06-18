@@ -137,6 +137,8 @@ C:\> choco list -l
 C:\> choco uninstall 이름
 ```
 
+# about_Redirection(PowerShell)
+https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-7.3
 
 # ChatGPT. Powershell 생성해줘. 근데 난 아무것도 몰라.
 
