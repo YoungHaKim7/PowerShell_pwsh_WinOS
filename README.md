@@ -6,6 +6,10 @@
 
 <hr>
 
+# choco cleaner 쓸때없는 파일 정리 Good !
+
+https://community.chocolatey.org/packages/choco-cleaner
+
 # 윈도우 DiskPart 파티션 cmd로 하기 무적이네 ㅎ
 
 https://www.diskpart.com/windows-10/diskpart-windows-10-1203.html
