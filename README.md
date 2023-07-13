@@ -57,6 +57,9 @@ or
 
 echo "/target" >> .gitignore
 
+
+// >> 파일 뒤에 이어 쓰기
+// > 덮어 쓰기라 이전 파일내용 다 날아감.
 ```
 
 # choco cleaner 쓸때없는 파일 정리 Good !
