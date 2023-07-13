@@ -15,8 +15,8 @@ echo "# Result" "" "``````" >> README.md && echo "``````" >> REAME.md && echo ""
 - 러스트 프로젝트 기본 셋
 
 ```
-echo "# Result" "" "``````" >> README.md && echo "``````" >> REAME.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore
-echo "# Result" "" "``````" >> README.md && echo "``````" >> REAME.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore && echo ".vscode" >> .gitignore
+echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore
+echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore && echo ".vscode" >> .gitignore
 ```
 
 # 윈도우 파워셀에서 러스트 target폴더 지우기(pwsh.exe) WindowsOS에서
