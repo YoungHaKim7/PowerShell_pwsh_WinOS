@@ -27,6 +27,12 @@ echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "
 Get-ChildItem -Filter ./target -Recurse -Force | Remove-Item -Recurse -Force
 ```
 
+- 상위 폴더에서 하면 하위 폴더에 있는 .DS_Store 파일 다 지워진다. ㅎㅎ 편하다
+
+```
+Get-ChildItem -Filter .DS_Store -Recurse -Force | Remove-Item -Recurse -Force
+```
+
 # 윈도우 파워셀에서 러스트 target폴더 찾기(pwsh.exe) WindowsOS에서
 
 ```
