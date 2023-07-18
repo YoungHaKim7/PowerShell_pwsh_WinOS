@@ -8,6 +8,17 @@
 
 ![PowerShell_Core_6 0_icon](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/24eedd6e-b3af-41c9-b56b-f847a3132e20)
 
+# wsl.exe -d ubuntu-22.04
+
+- 윈도우 wsl 우분투 22.04 시작하기
+```
+wsl.exe -d ubuntu-22.04
+```
+
+- wsl 우분투 가상 환경 종료 하기
+```
+wsl.exe --terminate Ubuntu-22.04
+```
 
  # Echo로 README.md에 ( Result ``` ```) 넣기 
 
