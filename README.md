@@ -19,6 +19,10 @@ echo "# Result" "" "``````" >> README.md && echo "``````" >> REAME.md && echo ""
 
 ```
 echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore
+
+```
+
+```
 echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore && echo ".vscode" >> .gitignore
 ```
 
