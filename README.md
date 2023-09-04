@@ -20,6 +20,8 @@ wsl.exe -d ubuntu-22.04
 wsl.exe --terminate Ubuntu-22.04
 ```
 
+https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/
+
  # Echo로 README.md에 ( Result ``` ```) 넣기 
 
 ```
