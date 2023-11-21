@@ -96,7 +96,7 @@ Measure-Command { <your command here> | Out-Host }
 ex)
 Measure-Command { ls | Out-Host }
 ```
-
+https://stackoverflow.com/questions/3513650/timing-a-commands-execution-in-powershell
 
 <br>
 
