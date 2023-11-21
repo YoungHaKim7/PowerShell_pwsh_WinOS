@@ -88,6 +88,20 @@ echo "/target" >> .gitignore
 // > 덮어 쓰기라 이전 파일내용 다 날아감.
 ```
 
+# linux ```time```같은 명령어를 Windows PowerShell에서 쓰는 명령어
+
+```
+Measure-Command { <your command here> | Out-Host }
+
+ex)
+Measure-Command { ls | Out-Host }
+```
+
+
+<br>
+
+<hr>
+
 # choco cleaner 쓸때없는 파일 정리 Good !
 
 https://community.chocolatey.org/packages/choco-cleaner
