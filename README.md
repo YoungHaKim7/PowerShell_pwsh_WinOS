@@ -18,6 +18,10 @@ wsl.exe -d ubuntu-22.04
 - wsl 우분투 가상 환경 종료 하기
 ```
 wsl.exe --terminate Ubuntu-22.04
+
+or
+
+wsl.exe -t Ubuntu-22.04
 ```
 
 https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/
