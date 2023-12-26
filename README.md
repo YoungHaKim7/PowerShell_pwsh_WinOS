@@ -102,6 +102,15 @@ https://stackoverflow.com/questions/3513650/timing-a-commands-execution-in-power
 
 <hr>
 
+# Linux ```which``` 같은 명령어  Windows PowerShell에서 쓰는 명령어
+
+- node위치 알아보기
+
+```
+ (get-command node).path
+C:\Program Files\nodejs\node.exe
+```
+
 # choco cleaner 쓸때없는 파일 정리 Good !
 
 https://community.chocolatey.org/packages/choco-cleaner
