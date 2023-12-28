@@ -30,6 +30,8 @@ wsl.exe -t Ubuntu-22.04
 
 // 설치한 우분투삭제
 wsl.exe --unregister Ubuntu-22.04
+
+wsl --unregister <distroName>
 ```
 
 - 인스톨 우분투 https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/
