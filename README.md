@@ -32,7 +32,10 @@ wsl.exe -t Ubuntu-22.04
 wsl.exe --unregister Ubuntu-22.04
 ```
 
-https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/
+- 인스톨 우분투 https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/
+
+- 설치한 우분투 삭제
+  - https://askubuntu.com/questions/1261664/how-to-uninstall-the-wsl-installation-of-ubuntu-20-04-from-windows-10
 
  # Echo로 README.md에 ( Result ``` ```) 넣기 
 
