@@ -142,6 +142,8 @@ https://www.diskpart.com/windows-10/diskpart-windows-10-1203.html
 
 - https://learn.microsoft.com/ko-kr/windows-server/storage/disk-management/change-a-gpt-disk-into-an-mbr-disk
 
+- convert gpt
+  - https://m.blog.naver.com/netianid/222795318452
 
 # An A-Z Index of Windows💻 PowerShell commands
 
