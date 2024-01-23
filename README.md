@@ -140,6 +140,9 @@ https://community.chocolatey.org/packages/choco-cleaner
 
 https://www.diskpart.com/windows-10/diskpart-windows-10-1203.html
 
+- https://learn.microsoft.com/ko-kr/windows-server/storage/disk-management/change-a-gpt-disk-into-an-mbr-disk
+
+
 # An A-Z Index of Windows💻 PowerShell commands
 
 https://ss64.com/ps/
