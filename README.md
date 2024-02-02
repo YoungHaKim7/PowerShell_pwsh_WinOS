@@ -84,6 +84,10 @@ echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "
 echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore && echo ".vscode" >> .gitignore
 ```
 
+# wsl1에서 wsl2로 업데이트 하기
+- Linux 커널 업데이트 패키지는 Windows 운영 체제 이미지 내에서 WSL을 실행하기 위해 WSL 2 Linux 커널의 최신 버전을 설치합니다. 
+  - https://learn.microsoft.com/ko-kr/windows/wsl/install-manual#step-3---enable-virtual-machine-feature
+
 # 윈도우 파워셀에서 러스트 target폴더 지우기(pwsh.exe) WindowsOS에서
 
 - 상위 폴더에서 하면 하위 폴더에 있는 target 폴더 다 지워진다. ㅎㅎ 편하네 ㅋㅋ 개꿀!!
