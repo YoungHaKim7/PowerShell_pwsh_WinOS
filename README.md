@@ -88,6 +88,27 @@ echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "
 - Linux 커널 업데이트 패키지는 Windows 운영 체제 이미지 내에서 WSL을 실행하기 위해 WSL 2 Linux 커널의 최신 버전을 설치합니다. 
   - https://learn.microsoft.com/ko-kr/windows/wsl/install-manual#step-3---enable-virtual-machine-feature
 
+<hr>
+
+# windows (cmake 설치)
+
+- you can already do this (or should anyhow).
+
+- install cmake like this to have it added to PATH for all users:
+```
+
+
+choco install cmake.install --installargs '"ADD_CMAKE_TO_PATH=System"'
+
+```
+
+- or the following to have it added to PATH for the current user only
+```
+choco install cmake.install --installargs '"ADD_CMAKE_TO_PATH=User"'
+
+There isn't any intention of adding it by default, as it isn't added by default in the installer.
+```
+
 # 윈도우 파워셀에서 러스트 target폴더 지우기(pwsh.exe) WindowsOS에서
 
 - 상위 폴더에서 하면 하위 폴더에 있는 target 폴더 다 지워진다. ㅎㅎ 편하네 ㅋㅋ 개꿀!!
