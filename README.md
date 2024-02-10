@@ -109,6 +109,12 @@ choco install cmake.install --installargs '"ADD_CMAKE_TO_PATH=User"'
 There isn't any intention of adding it by default, as it isn't added by default in the installer.
 ```
 
+# msys2설치하기
+
+- https://www.msys2.org/
+
+<hr>
+
 # 윈도우 파워셀에서 러스트 target폴더 지우기(pwsh.exe) WindowsOS에서
 
 - 상위 폴더에서 하면 하위 폴더에 있는 target 폴더 다 지워진다. ㅎㅎ 편하네 ㅋㅋ 개꿀!!
