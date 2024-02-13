@@ -303,6 +303,10 @@ C:\> choco uninstall 이름
 # about_Redirection(PowerShell)
 https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-7.3
 
+
+# Wsl에서 화면 나오게 세팅하기(Can't open display:)
+- https://stackoverflow.com/questions/61860208/running-graphical-linux-desktop-applications-from-wsl-2-error-e233-cannot-op
+
 # ChatGPT. Powershell 생성해줘. 근데 난 아무것도 몰라.
 
 https://youtu.be/bcgjjLXWaNU
