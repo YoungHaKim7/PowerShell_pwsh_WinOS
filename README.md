@@ -11,6 +11,31 @@
 
 ![PowerShell_Core_6 0_icon](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/24eedd6e-b3af-41c9-b56b-f847a3132e20)
 
+# 설치가능 리스트
+
+```bash
+ wsl --install
+Linux용 Windows 하위 시스템이 이미 설치되어 있습니다.
+다음은 설치할 수 있는 유효한 배포 목록입니다.
+'wsl --install -d <배포>'를 사용하여 설치하세요.
+
+NAME                                   FRIENDLY NAME
+Ubuntu                                 Ubuntu
+Debian                                 Debian GNU/Linux
+kali-linux                             Kali Linux Rolling
+Ubuntu-18.04                           Ubuntu 18.04 LTS
+Ubuntu-20.04                           Ubuntu 20.04 LTS
+Ubuntu-22.04                           Ubuntu 22.04 LTS
+Ubuntu-24.04                           Ubuntu 24.04 LTS
+OracleLinux_7_9                        Oracle Linux 7.9
+OracleLinux_8_7                        Oracle Linux 8.7
+OracleLinux_9_1                        Oracle Linux 9.1
+openSUSE-Leap-15.5                     openSUSE Leap 15.5
+SUSE-Linux-Enterprise-Server-15-SP4    SUSE Linux Enterprise Server 15 SP4
+SUSE-Linux-Enterprise-15-SP5           SUSE Linux Enterprise 15 SP5
+openSUSE-Tumbleweed                    openSUSE Tumbleweed
+```
+
 # wsl.exe -d ubuntu-22.04
 
 - 윈도우 wsl 우분투 22.04 시작하기
