@@ -40,9 +40,16 @@ openSUSE-Tumbleweed                    openSUSE Tumbleweed
 
 - 윈도우 wsl 우분투 22.04 시작하기
 ```
+wsl.exe -d Ubuntu-24.04
+
 wsl.exe -d ubuntu-22.04
 
-wsl.exe -d kali-linux  
+wsl.exe -d kali-linux
+
+
+
+// 종료
+wsl.exe -t Ubuntu-24.04
 ```
 
 - wsl 우분투 가상 환경 종료 하기
