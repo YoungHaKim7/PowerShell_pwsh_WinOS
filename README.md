@@ -17,6 +17,9 @@
 C:/msys64/msys2_shell.cmd -defterm -here -no-start -ucrt64
 ```
 
+- PATH설정
+  - https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/mingw/index.php
+
 <hr>
 
 ![PowerShell_Core_6 0_icon](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/24eedd6e-b3af-41c9-b56b-f847a3132e20)
