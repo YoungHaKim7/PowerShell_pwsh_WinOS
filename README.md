@@ -1,4 +1,4 @@
-# Contents
+# link
 
 [Choco Install 윈도우 패키지 관리자: chocolatey](https://github.com/YoungHaKim7/PowerShell_pwsh_WinOS#%EC%9C%88%EB%8F%84%EC%9A%B0-%ED%8C%A8%ED%82%A4%EC%A7%80-%EA%B4%80%EB%A6%AC%EC%9E%90-chocolatey)
 
@@ -111,6 +111,9 @@ openSUSE-Tumbleweed                    openSUSE Tumbleweed
 
 - 설치한 우분투 삭제
   - https://askubuntu.com/questions/1261664/how-to-uninstall-the-wsl-installation-of-ubuntu-20-04-from-windows-10
+
+# WSL1과 WSL2 환경분리하는 방법
+- https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/WSL-and-Docker/05-Dividing-WSL1-and-WSL2/
 
  # Echo로 README.md에 ( Result ``` ```) 넣기 
 
