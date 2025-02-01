@@ -59,6 +59,8 @@ wsl.exe -d ubuntu-22.04
 
 wsl.exe -d kali-linux
 
+wsl.exe -d Debian
+
 
 
 // 종료
