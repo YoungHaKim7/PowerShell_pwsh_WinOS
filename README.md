@@ -75,7 +75,10 @@ or
 
 wsl.exe -t Ubuntu-22.04
 
-wsl.exe -t kali-linux   
+wsl.exe -t kali-linux
+
+# 설치 완료 후(arch linux (wsl2)접속)
+arch.exe 
 
 
 
