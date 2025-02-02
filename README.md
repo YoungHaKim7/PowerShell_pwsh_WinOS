@@ -5,6 +5,7 @@
 - VSCode 꼭 설치해야함(PowerShell코딩)
   - https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell
 
+- [윈도우cmd파티션_[Windows] 명령프롬프트(CMD)에서 파티션(Partition) 관리하기 - DiskPart](https://m.blog.naver.com/PostView.naver?blogId=opusk&logNo=220984140291&proxyReferer=https:%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps:%2F%2Fblog.naver.com%2Fopusk%2F220984140291%26sa%3DU%26sqi%3D2%26ved%3D2ahUKEwivprGMlqSLAxX7fPUHHWWPAK0QFnoECCUQAQ%26usg%3DAOvVaw0uPU_gOcKDFJYrH-5nv_Nt&trackingCode=external)
 <br>
 
 <hr>
