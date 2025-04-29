@@ -12,7 +12,7 @@
 
 <hr>
 
-# MINGW64설정관련
+# MINGW64설정관련[|🔝|](#link)
 - https://gauryan.tistory.com/222
 
 - 파워셀에서 이렇게 명령어 넣으면 실행된다.굿
@@ -27,7 +27,7 @@ C:/msys64/msys2_shell.cmd -defterm -here -no-start -ucrt64
 
 ![PowerShell_Core_6 0_icon](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/24eedd6e-b3af-41c9-b56b-f847a3132e20)
 
-# 설치가능 리스트
+# 설치가능 리스트[|🔝|](#link)
 
 ```bash
  wsl --install
@@ -52,7 +52,7 @@ SUSE-Linux-Enterprise-15-SP5           SUSE Linux Enterprise 15 SP5
 openSUSE-Tumbleweed                    openSUSE Tumbleweed
 ```
 
-# wsl.exe -d ubuntu-22.04
+# wsl.exe -d ubuntu-22.04[|🔝|](#link)
 
 - 윈도우 wsl 우분투 22.04 시작하기
 ```
@@ -298,13 +298,13 @@ rm -Force .\read_line03
 
 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3
 
-# 파워셀 Update
+# 파워셀 Update[|🔝|](#link)
 
 ```
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 ```
 
-# 파워셀 버젼확인하는 방법
+# 파워셀 버젼확인하는 방법[|🔝|](#link)
 
 ```
 $PSVersionTable.PSVersion
@@ -312,7 +312,7 @@ $PSVersionTable.PSVersion
 
 https://jae04099.tistory.com/entry/Console-PowerShell-%EC%97%B0%EC%82%B0%EC%9E%90
 
-# powershell 명령어 다 나옴
+# powershell 명령어 다 나옴[|🔝|](#link)
 
 ```
 // powershell 에서 해보자 alias 명령어 다 보여줌
@@ -320,24 +320,24 @@ https://jae04099.tistory.com/entry/Console-PowerShell-%EC%97%B0%EC%82%B0%EC%9E%9
 alias
 ```
 
-# 파워셀 커맨드 설명 Command
+# 파워셀 커맨드 설명 Command[|🔝|](#link)
 
 - How do you use the Command line? PowerShell, cmd, bash? - Computer Stuff They Didn't Teach You #13
 
   - https://youtu.be/QKBcHuA3VJE
 
-# PowerShell 공식 문서 Documentation
+# PowerShell 공식 문서 Documentation[|🔝|](#link)
 
 https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3
 
 <hr>
 
 
-# How to set up PowerShell prompt with Oh My Posh on Windows 11(외국사람의 파워셀 활용법 진짜 중에 진짜 ㅋㅋ)
+# How to set up PowerShell prompt with Oh My Posh on Windows 11(외국사람의 파워셀 활용법 진짜 중에 진짜 ㅋㅋ)[|🔝|](#link)
 
 https://youtu.be/5-aK2_WwrmM
 
-# 윈도우 패키지 관리자: chocolatey
+# 윈도우 패키지 관리자: chocolatey[|🔝|](#link)
 
 # 패키지 설치
 
@@ -359,13 +359,28 @@ C:\> choco list -l
 C:\> choco uninstall 이름
 ```
 
-# about_Redirection(PowerShell)
+# about_Redirection(PowerShell)[|🔝|](#link)
 https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-7.3
 
 
-# Wsl에서 화면 나오게 세팅하기(Can't open display:)
+# Wsl에서 화면 나오게 세팅하기(Can't open display:)[|🔝|](#link)
 - https://stackoverflow.com/questions/61860208/running-graphical-linux-desktop-applications-from-wsl-2-error-e233-cannot-op
 
-# ChatGPT. Powershell 생성해줘. 근데 난 아무것도 몰라.
+# ChatGPT. Powershell 생성해줘. 근데 난 아무것도 몰라.[|🔝|](#link)
 
 https://youtu.be/bcgjjLXWaNU
+
+# 윈도우 11 마우스 우클릭 옛날처럼 돌리기[|🔝|](#link)
+
+- (임시로 1회용) SHIFT를 누른 채로 우클릭을 하면 윈도우10과 같은 느낌의 바탕화면 메뉴를 확인할 수 있을 거에요. 
+  - https://blog.naver.com/chaosily/223486145411 [출처] 윈도우11 바탕화면 우클릭 메뉴 윈도우10처럼 사용|작성자 호수
+
+- 영구설정 powershell에서 세팅
+```bash
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+
+taskkill /f /im explorer.exe
+
+explorer.exe
+```
+https://playcraft.tistory.com/472
