@@ -241,6 +241,9 @@ https://stackoverflow.com/questions/3513650/timing-a-commands-execution-in-power
 ```
  (get-command node).path
 C:\Program Files\nodejs\node.exe
+
+PS E:\young_linux> (get-command pwsh).path
+C:\Program Files\PowerShell\7\pwsh.exe
 ```
 
 # choco cleaner 쓸때없는 파일 정리 Good !
