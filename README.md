@@ -384,3 +384,12 @@ taskkill /f /im explorer.exe
 explorer.exe
 ```
 https://playcraft.tistory.com/472
+
+
+# SHA256 해쉬값을 확인하는 방법[|🔝|](#link)
+
+```
+certutil -hashfile C:\Users\doomed\Downloads\Miniconda3-latest-Windows-x86_64.exe sha256
+
+```
+출처: https://doomed-lab.tistory.com/104 [둠선생 연구실:티스토리]
