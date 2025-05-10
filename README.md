@@ -388,7 +388,7 @@ https://playcraft.tistory.com/472
 
 # SHA256 해쉬값을 확인하는 방법[|🔝|](#link)
 
-```
+```ps
 certutil -hashfile C:\Users\doomed\Downloads\Miniconda3-latest-Windows-x86_64.exe sha256
 
 ```
@@ -397,7 +397,7 @@ certutil -hashfile C:\Users\doomed\Downloads\Miniconda3-latest-Windows-x86_64.ex
 - Get-FileHash
   - https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.5
 
-```
+```ps
  Get-FileHash .\text.txt
 
 Algorithm       Hash
