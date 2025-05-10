@@ -12,6 +12,12 @@
 
 <hr>
 
+# code
+
+```
+```powershell
+```
+
 # MINGW64설정관련[|🔝|](#link)
 - https://gauryan.tistory.com/222
 
@@ -55,7 +61,7 @@ openSUSE-Tumbleweed                    openSUSE Tumbleweed
 # wsl.exe -d ubuntu-22.04[|🔝|](#link)
 
 - 윈도우 wsl 우분투 22.04 시작하기
-```
+```powershell
 wsl.exe -d Ubuntu-24.04
 
 wsl.exe -d ubuntu-22.04
@@ -71,7 +77,7 @@ wsl.exe -t Ubuntu-24.04
 ```
 
 - wsl 우분투 가상 환경 종료 하기
-```
+```powershell
 wsl.exe --terminate Ubuntu-22.04
 
 or
@@ -92,7 +98,7 @@ wsl --unregister <distroName>
 ```
 
 - ```wsl --list --online```
-```
+```powershell
 wsl --list --online
 다음은 설치할 수 있는 유효한 배포판 목록입니다.
 'wsl.exe --install <Distro>'를 사용하여 설치합니다.
@@ -125,18 +131,18 @@ openSUSE-Tumbleweed                    openSUSE Tumbleweed
 
  # Echo로 README.md에 ( Result ``` ```) 넣기 
 
-```
+```powershell
 echo "# Result" "" "``````" >> README.md && echo "``````" >> REAME.md && echo "" "``````" >> README.md
 ```
 
 - 러스트 프로젝트 기본 셋
 
-```
+```powershell
 echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore
 
 ```
 
-```
+```powershell
 echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore && echo ".vscode" >> .gitignore
 ```
 
@@ -151,15 +157,15 @@ echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "
 - you can already do this (or should anyhow).
 
 - install cmake like this to have it added to PATH for all users:
-```
 
+```powershell
 
 choco install cmake.install --installargs '"ADD_CMAKE_TO_PATH=System"'
 
 ```
 
 - or the following to have it added to PATH for the current user only
-```
+```powershell
 choco install cmake.install --installargs '"ADD_CMAKE_TO_PATH=User"'
 
 There isn't any intention of adding it by default, as it isn't added by default in the installer.
@@ -175,26 +181,26 @@ There isn't any intention of adding it by default, as it isn't added by default 
 
 - 상위 폴더에서 하면 하위 폴더에 있는 target 폴더 다 지워진다. ㅎㅎ 편하네 ㅋㅋ 개꿀!!
 
-```
+```powershell
 Get-ChildItem -Filter ./target -Recurse -Force | Remove-Item -Recurse -Force
 ```
 
 - 상위 폴더에서 하면 하위 폴더에 있는 .DS_Store 파일 다 지워진다. ㅎㅎ 편하다
 
-```
+```powershell
 Get-ChildItem -Filter .DS_Store -Recurse -Force | Remove-Item -Recurse -Force
 ```
 
 # 윈도우 파워셀에서 러스트 target폴더 찾기(pwsh.exe) WindowsOS에서
 
-```
+```powershell
 dir .\ -r -i "target"
 ```
 
 
 # c드라이브에서 내가 원하는 mongosh.exe 찾기, 빠르게 찾자
 
-```
+```powershell
 PS C:\> dir c:\ -recurse -filter mongosh.exe 
 ```
 
@@ -205,7 +211,7 @@ PS C:\> dir c:\ -recurse -filter mongosh.exe
 
 - WindowsOS윈도우에는 touch가 없으니 echo를 활용하면 된다. 신기한건 Linux나 macOS에서도 되서 신기했다. 무조건 touch로 해야하는줄 알았는데 ㅋㅋ
 
-```
+```powershell
 
 echo /target >> .gitignore
 
@@ -238,7 +244,7 @@ https://stackoverflow.com/questions/3513650/timing-a-commands-execution-in-power
 
 - node위치 알아보기
 
-```
+```powershell
  (get-command node).path
 C:\Program Files\nodejs\node.exe
 
@@ -285,7 +291,7 @@ https://github.com/PowerShell/PowerShell/releases/tag/v7.3.3
 
 - rm -Force 지우고 싶은 폴더
 
-```
+```powershell
 
 rm -Force .\read_line03
 
@@ -300,13 +306,13 @@ https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powers
 
 # 파워셀 Update[|🔝|](#link)
 
-```
+```powershell
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 ```
 
 # 파워셀 버젼확인하는 방법[|🔝|](#link)
 
-```
+```powershell
 $PSVersionTable.PSVersion
 ```
 
@@ -314,7 +320,7 @@ https://jae04099.tistory.com/entry/Console-PowerShell-%EC%97%B0%EC%82%B0%EC%9E%9
 
 # powershell 명령어 다 나옴[|🔝|](#link)
 
-```
+```powershell
 // powershell 에서 해보자 alias 명령어 다 보여줌
 
 alias
@@ -343,7 +349,7 @@ https://youtu.be/5-aK2_WwrmM
 
 https://chocolatey.org/packages
 
-```
+```powershell
 C:\> choco install 이름
 ```
 
@@ -355,7 +361,7 @@ C:\> choco list -l
 
 - 패키지 제거
 
-```
+```powershell
 C:\> choco uninstall 이름
 ```
 
@@ -376,7 +382,7 @@ https://youtu.be/bcgjjLXWaNU
   - https://blog.naver.com/chaosily/223486145411 [출처] 윈도우11 바탕화면 우클릭 메뉴 윈도우10처럼 사용|작성자 호수
 
 - 영구설정 powershell에서 세팅
-```bash
+```powershell
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 
 taskkill /f /im explorer.exe
@@ -388,7 +394,7 @@ https://playcraft.tistory.com/472
 
 # SHA256 해쉬값을 확인하는 방법[|🔝|](#link)
 
-```ps
+```powershell
 certutil -hashfile C:\Users\doomed\Downloads\Miniconda3-latest-Windows-x86_64.exe sha256
 
 ```
@@ -397,7 +403,7 @@ certutil -hashfile C:\Users\doomed\Downloads\Miniconda3-latest-Windows-x86_64.ex
 - Get-FileHash
   - https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.5
 
-```ps
+```powershell
  Get-FileHash .\text.txt
 
 Algorithm       Hash
