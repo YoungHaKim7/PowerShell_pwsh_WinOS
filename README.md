@@ -393,3 +393,12 @@ certutil -hashfile C:\Users\doomed\Downloads\Miniconda3-latest-Windows-x86_64.ex
 
 ```
 출처: https://doomed-lab.tistory.com/104 [둠선생 연구실:티스토리]
+
+- Get-FileHash
+```
+ Get-FileHash .\text.txt
+
+Algorithm       Hash
+---------       ----
+SHA256          A95E8459B541791DAC5AF1F72E108EFDB73A3
+```
