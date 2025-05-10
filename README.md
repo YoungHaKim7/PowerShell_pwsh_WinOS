@@ -395,6 +395,8 @@ certutil -hashfile C:\Users\doomed\Downloads\Miniconda3-latest-Windows-x86_64.ex
 출처: https://doomed-lab.tistory.com/104 [둠선생 연구실:티스토리]
 
 - Get-FileHash
+  - https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.5
+
 ```
  Get-FileHash .\text.txt
 
