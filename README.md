@@ -310,7 +310,7 @@ $ winget upgrade --all
 
 # 파워셀 Install (Windows OS)
 
-https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3
+https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 
 # 파워셀 Update[|🔝|](#link)
 
