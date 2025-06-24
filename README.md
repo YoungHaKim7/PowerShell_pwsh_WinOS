@@ -297,6 +297,14 @@ rm -Force .\read_line03
 
 ```
 
+<hr />
+
+# `cmd`에서 윈도우 프로그램 모두 업데이트(update & upgrade) 하기
+- https://www.tiktok.com/@jjalcut/video/7496418896631565576?_r=1&_t=ZS-8xIkekga4Lg
+
+```powershell
+$ winget upgrade --all
+```
 
 <hr>
 
