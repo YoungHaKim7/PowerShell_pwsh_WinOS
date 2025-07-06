@@ -8,7 +8,7 @@
 - [윈도우cmd파티션_[Windows] 명령프롬프트(CMD)에서 파티션(Partition) 관리하기 - DiskPart](https://m.blog.naver.com/PostView.naver?blogId=opusk&logNo=220984140291&proxyReferer=https:%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps:%2F%2Fblog.naver.com%2Fopusk%2F220984140291%26sa%3DU%26sqi%3D2%26ved%3D2ahUKEwivprGMlqSLAxX7fPUHHWWPAK0QFnoECCUQAQ%26usg%3DAOvVaw0uPU_gOcKDFJYrH-5nv_Nt&trackingCode=external)
   - [gpt로 변환 방법](https://m.blog.naver.com/ysyoon20/223105430865)
 
-- [wsl 명령어 정리]()
+- [wsl 명령어 정리](#wsl-명령어-정리)
 
 <br>
 
