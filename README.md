@@ -10,6 +10,8 @@
 
 - [wsl 명령어 정리](#wsl-명령어-정리)
 
+- [gcc clang설치](#windowsos에-gcc-와-clang-설치)
+
 <br>
 
 <hr>
@@ -425,7 +427,7 @@ SHA256          A95E8459B541791DAC5AF1F72E108EFDB73A3
 ```
 
 
-# windowsOS에 gcc 와 clang 설치
+# windowsOS에 gcc 와 clang 설치[|🔝|](#link)
 
 - gcc 설치는 choco 로
   - https://community.chocolatey.org/packages/mingw
