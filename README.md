@@ -8,6 +8,8 @@
 - [윈도우cmd파티션_[Windows] 명령프롬프트(CMD)에서 파티션(Partition) 관리하기 - DiskPart](https://m.blog.naver.com/PostView.naver?blogId=opusk&logNo=220984140291&proxyReferer=https:%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps:%2F%2Fblog.naver.com%2Fopusk%2F220984140291%26sa%3DU%26sqi%3D2%26ved%3D2ahUKEwivprGMlqSLAxX7fPUHHWWPAK0QFnoECCUQAQ%26usg%3DAOvVaw0uPU_gOcKDFJYrH-5nv_Nt&trackingCode=external)
   - [gpt로 변환 방법](https://m.blog.naver.com/ysyoon20/223105430865)
 
+- [wsl 명령어 정리]()
+
 <br>
 
 <hr>
@@ -32,6 +34,9 @@ C:/msys64/msys2_shell.cmd -defterm -here -no-start -ucrt64
 <hr>
 
 ![PowerShell_Core_6 0_icon](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/24eedd6e-b3af-41c9-b56b-f847a3132e20)
+
+# wsl 명령어 정리[|🔝|](#link)
+- https://learn.microsoft.com/ko-kr/windows/wsl/basic-commands
 
 # 설치가능 리스트[|🔝|](#link)
 
