@@ -423,3 +423,17 @@ Algorithm       Hash
 ---------       ----
 SHA256          A95E8459B541791DAC5AF1F72E108EFDB73A3
 ```
+
+
+# windowsOS에 gcc 와 clang 설치
+
+- gcc 설치는 choco 로
+  - https://community.chocolatey.org/packages/mingw
+
+```bash
+choco install mingw
+```
+
+- clang은 다운로드 받고 압축 풀고 패스 설정.
+- download https://releases.llvm.org/
+  - https://github.com/llvm/llvm-project/releases/tag/llvmorg-20.1.0
