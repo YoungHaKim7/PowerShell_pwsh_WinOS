@@ -437,5 +437,14 @@ choco install mingw
 ```
 
 - clang은 다운로드 받고 압축 풀고 패스 설정.
+  - https://www.java.com/en/download/help/path.html
+
+- (path 설정) Windows 10 and Windows 8
+  - In Search, search for and then select: System (`Control Panel`)
+  - Click the `Advanced system settings` link.
+  - Click Environment Variables. In the section `System Variables` find the PATH environment variable and select it. Click Edit. If the PATH environment variable does not exist, click New.
+  - In the Edit System Variable (or New System Variable) window, specify the value of the PATH environment variable. Click OK. Close all remaining windows by clicking OK.
+  -  Reopen Command prompt window, and run your java code.
+
 - download https://releases.llvm.org/
   - https://github.com/llvm/llvm-project/releases/tag/llvmorg-20.1.0
