@@ -441,6 +441,11 @@ choco install mingw
     - https://github.com/llvm/llvm-project/releases/tag/llvmorg-20.1.0
     - `Assets` 클릭하면 다운로드 가능함.
       - https://github.com/llvm/llvm-project/releases/
+  ```bash
+  # Intel CPU(x86_64) WindowsOS 사용자는 이 파일 받으면 됨.
+  clang+llvm-20.1.7-x86_64-pc-windows-msvc.tar.xz 
+  ```
+
   - windows 패스(PATH) 설정
     - https://www.java.com/en/download/help/path.html
 
