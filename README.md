@@ -441,6 +441,7 @@ choco install mingw
 
 - (한글 WindowsOS 11 환경 변수로 PATH 설정하는 방법)
   - https://ye5ni.tistory.com/157
+  - 설정 방법 - [Windows 설정] - [시스템] - [정보] - [고급 시스템 설정] - [고급] - [환경 변수] - [시스템 변수] - [Path] 눌러서 설정하고 싶은 경로를 입력하면 된다
 - [(영문 path 설정) Windows 10 and Windows 8](https://www.java.com/en/download/help/path.html)
   - In Search, search for and then select: System (`Control Panel`)
   - Click the `Advanced system settings` link.
