@@ -205,7 +205,7 @@ dir .\ -r -i "target"
 ```
 
 
-# c드라이브에서 내가 원하는 mongosh.exe 찾기, 빠르게 찾자
+# c드라이브에서 내가 원하는 mongosh.exe 찾기(find), 빠르게 찾자
 
 ```powershell
 PS C:\> dir c:\ -recurse -filter mongosh.exe 
