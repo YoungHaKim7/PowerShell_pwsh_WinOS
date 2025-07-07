@@ -437,7 +437,12 @@ choco install mingw
 ```
 
 - clang은 다운로드 받고 압축 풀고 패스 설정.
-  - https://www.java.com/en/download/help/path.html
+  - clang download https://releases.llvm.org/
+    - https://github.com/llvm/llvm-project/releases/tag/llvmorg-20.1.0
+    - `Assets` 클릭하면 다운로드 가능함.
+      - https://github.com/llvm/llvm-project/releases/
+  - windows 패스(PATH) 설정
+    - https://www.java.com/en/download/help/path.html
 
 - (한글 WindowsOS 11 환경 변수로 PATH 설정하는 방법)
   - https://ye5ni.tistory.com/157
@@ -449,5 +454,4 @@ choco install mingw
   - In the Edit System Variable (or New System Variable) window, specify the value of the PATH environment variable. Click OK. Close all remaining windows by clicking OK.
   -  Reopen Command prompt window, and run your java code.
 
-- download https://releases.llvm.org/
-  - https://github.com/llvm/llvm-project/releases/tag/llvmorg-20.1.0
+
