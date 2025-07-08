@@ -69,6 +69,8 @@ openSUSE-Tumbleweed                    openSUSE Tumbleweed
 
 - 윈도우 wsl 우분투 22.04 시작하기
 ```powershell
+wsl.exe -d Ubuntu
+
 wsl.exe -d Ubuntu-24.04
 
 wsl.exe -d ubuntu-22.04
