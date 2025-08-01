@@ -22,6 +22,9 @@
 ```powershell
 ```
 
+# (문제가 많은 wsl)Upgrade of a freshly installed WSL1 Ubuntu 24.04 fails
+- https://superuser.com/questions/1863713/upgrade-of-a-freshly-installed-wsl1-ubuntu-24-04-fails
+
 # MINGW64설정관련[|🔝|](#link)
 - https://gauryan.tistory.com/222
 
