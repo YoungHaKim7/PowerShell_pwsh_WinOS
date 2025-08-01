@@ -25,6 +25,19 @@
 # (문제가 많은 wsl)Upgrade of a freshly installed WSL1 Ubuntu 24.04 fails
 - https://superuser.com/questions/1863713/upgrade-of-a-freshly-installed-wsl1-ubuntu-24-04-fails
 
+- 이걸로 해결Workaround 2: override command
+  - Possible if the error has already occurred and the installation is to be completed.
+  - The error occurs in the post-install script of systemd (`/var/lib/dpkg/info/systemd.postinst`), more precisely when calling the command systemd-sysusers in this script.
+  - You can link the binary systemd-sysusers to echo, for example. This allows the post-install script to be executed, except for the command that is executed via systemd-sysusers, as this only generates an output via echo, but you no longer run into an error.
+
+```
+cd /bin && mv -f systemd-sysusers{,.org} && ln -s echo systemd-sysusers && cd -
+apt install -f
+```
+
+- Source of the 1st command: https://github.com/microsoft/WSL/issues/10397#issuecomment-1780132430
+  - Hint: I am not sure about the future effects or problems by "disabling" the systemd-sysusers command.
+
 # MINGW64설정관련[|🔝|](#link)
 - https://gauryan.tistory.com/222
 
