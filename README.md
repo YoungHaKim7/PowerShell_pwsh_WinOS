@@ -12,6 +12,8 @@
 
 - [gcc clang설치](#windowsos에-gcc-와-clang-설치)
 
+- [마소_wsl설명서](https://learn.microsoft.com/ko-kr/windows/wsl/)
+
 <br>
 
 <hr>
