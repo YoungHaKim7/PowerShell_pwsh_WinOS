@@ -24,6 +24,8 @@
 ```powershell
 ```
 
+# wsl1은 옛날 리눅스 커널이라 쓰레기다. 왠만하면 wsl2쓰도록 하자
+
 # (문제가 많은 wsl)Upgrade of a freshly installed WSL1 Ubuntu 24.04 fails
 - https://superuser.com/questions/1863713/upgrade-of-a-freshly-installed-wsl1-ubuntu-24-04-fails
 
