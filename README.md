@@ -25,6 +25,9 @@
 ```
 
 # wsl1은 옛날 리눅스 커널이라 쓰레기다. 왠만하면 wsl2쓰도록 하자
+- wsl1에서 wsl2로 업데이트 하기
+  - Linux 커널 업데이트 패키지는 Windows 운영 체제 이미지 내에서 WSL을 실행하기 위해 WSL 2 Linux 커널의 최신 버전을 설치합니다. 
+    - https://learn.microsoft.com/ko-kr/windows/wsl/install-manual#step-3---enable-virtual-machine-feature
 
 # (문제가 많은 wsl)Upgrade of a freshly installed WSL1 Ubuntu 24.04 fails
 - https://superuser.com/questions/1863713/upgrade-of-a-freshly-installed-wsl1-ubuntu-24-04-fails
