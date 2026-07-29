@@ -18,7 +18,7 @@ explorer.exe
 https://playcraft.tistory.com/472
 
 
-# 윈도우키 눌렀을때 웹 검색 안되게 x
+# 윈도우키 눌렀을때 웹 검색 안되게 x[|🔝|](#link)
 
 ```bash
 # 실행 win + r
@@ -34,6 +34,7 @@ HKEY_CURRENT_USER
           # 값 데이터 숫자를 1로 설정(단위 16진수)
           -> 1   
 
+# 재부팅하면 설정완료
 ```
 
 - [윈도우 웹 자동 서치 기능 없애기| 쓰레기 윈도우](https://youtu.be/00on6uI4gMg?si=3uxAMrjqVsx0AVdg)
