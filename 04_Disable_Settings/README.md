@@ -35,6 +35,14 @@ HKEY_CURRENT_USER
           -> 1   
 
 # 재부팅하면 설정완료
+
+
+경로:
+HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows
+Windows 우클릭 → 새로 만들기 → 키 : Explorer 입력  → 
+빈 공간 우클릭 → 새로만들기의 'DWORD(32비트) 값' → 
+이름: DisableSearchBoxSuggestions
+
 ```
 
 - [윈도우 웹 자동 서치 기능 없애기| 쓰레기 윈도우](https://youtu.be/00on6uI4gMg?si=3uxAMrjqVsx0AVdg)
